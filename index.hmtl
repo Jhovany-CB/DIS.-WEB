@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Diseño y Programación WEB</title>
+</head>
+
+<body>
+    <center>
+        <h1>Diseño y Programación WEB</h1>
+    </center>
+    
+    <table border="1" style="margin: 0 auto;">
+        <caption> <strong>Estructura de las Tablas</strong></caption>
+<!-- <colgroup>
+    <col style="background-color: #b4e6e6; width: 100px;"> <col style="background-color: #ffeb3b; width: 200px;"> <col style="background-color: #e9a2a2; width: 150px;"> </colgroup>-->
+<colgroup> 
+    <col style="background-color: #c5e5fa; width: 150px;">
+    <col style="background-color: rgb(198, 149, 245); width: 150px;">
+    <col style="background-color: bisque; width: 150px;">
+</colgroup>
+        <thead>
+            <tr>
+                <th colspan="3" style="background-color: rgb(234, 250, 146);">Tipos de Datos A, B y C</th>
+               
+            </tr>
+        </thead>
+      
+        <tbody>
+            <tr>
+                <td rowspan="2">
+                    <a href="imagenes.html" target="_self" title="nueva imagen?">Imagenes</a>
+                </td>
+                <td>A</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>D</td>
+                
+            </tr>
+        </tbody>
+            <tfoot>
+            <tr>
+                <td>Agt</td>
+                <td>Bfr</td>
+                <td>Crr</td>
+            </tr>
+        </tfoot>
+      
+    </table>
+    
+    <table border="1" style="margin: 0 auto;">
+        <colgroup>
+        <col style="background-color: rgb(115, 240, 198); width: 200px;">
+        <col span="2" style="background-color: rgb(233, 223, 91);width: 150px;">
+        </colgroup>
+        <caption> <strong>Tabla 2</strong></caption>
+        <thead>
+            <tr style="background-color: rgb(236, 182, 185);">
+                <th>Celda 1</th>
+                <th>Celda 2</th>
+                <th>Celda 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Celda Combinada</td>
+                <td>Celda 5</td>
+        <td rowspan="2">Celda Combinada</td>
+                
+            </tr>
+      
+            <tr>
+                <td>celda 7</td>
+            </tr>
+        </tbody>
+        
+    </table>
+<!-- <table border="1" style="text-align: center; margin: 0 auto;">
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">Celda Combinada</td>
+        <td>Celda 5</td>
+        <td rowspan="2">Celda Combinada</td>
+    </tr>
+
+    <tr>
+        <td>Celda 7</td>
+    </tr>
+</table> -->
+</body>
+
+</html>
